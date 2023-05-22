@@ -1,0 +1,39 @@
+.formuler{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.divForm{
+    background-color: rgb(46, 148, 148);
+    width: 50%;
+    padding-bottom: 35px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+.input{
+    padding: 10px;
+    width: 80%;
+}
+.input:focus{
+    outline: none;
+}
+.textarea{
+    padding: 5px 5px 25px 10px;
+    width: 80%;
+}
+.textarea:focus{
+    outline: none;
+}
+.btnForm{
+    background-color:rgb(22, 196, 222);
+    padding: 5px 15px 5px 15px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+}
+.h1{
+    color: aliceblue;
+}

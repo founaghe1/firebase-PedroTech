@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    background-color: rgb(39, 140, 106);
+}
+.link{
+    display: flex;
+    justify-content: end;
+    width: 67%;
+}
+.home{
+    padding: 13px;
+    margin-right: 50px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.login{
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(44, 85, 85);
+    margin-bottom: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.profil{
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 35px;
+}
+.profil img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 3px;
+}
