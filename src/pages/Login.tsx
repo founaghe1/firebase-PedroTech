@@ -8,8 +8,8 @@ export const Login = () =>{
     const navigate = useNavigate();
 
     // Authentification par google
-    const signInWithGoogle = async () =>{
-        const result = await signInWithPopup(auth, provider);
+    const signInWithGoogle =  () =>{
+        const result =  signInWithPopup(auth, provider);
         console.log(result);
         navigate('/');
     }
